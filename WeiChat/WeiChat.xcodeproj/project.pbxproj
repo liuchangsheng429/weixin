@@ -15,6 +15,7 @@
 		044312CA1D77989600A08EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044312C81D77989600A08EFE /* LaunchScreen.storyboard */; };
 		044312D51D77989600A08EFE /* WeiChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044312D41D77989600A08EFE /* WeiChatTests.m */; };
 		044312E01D77989600A08EFE /* WeiChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044312DF1D77989600A08EFE /* WeiChatUITests.m */; };
+		044312EF1D7798FF00A08EFE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 044312EE1D7798FF00A08EFE /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		044312DB1D77989600A08EFE /* WeiChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044312DF1D77989600A08EFE /* WeiChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiChatUITests.m; sourceTree = "<group>"; };
 		044312E11D77989600A08EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044312ED1D7798FF00A08EFE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		044312EE1D7798FF00A08EFE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				044312BE1D77989600A08EFE /* AppDelegate.m */,
 				044312C01D77989600A08EFE /* ViewController.h */,
 				044312C11D77989600A08EFE /* ViewController.m */,
+				044312ED1D7798FF00A08EFE /* User.h */,
+				044312EE1D7798FF00A08EFE /* User.m */,
 				044312C31D77989600A08EFE /* Main.storyboard */,
 				044312C61D77989600A08EFE /* Assets.xcassets */,
 				044312C81D77989600A08EFE /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044312EF1D7798FF00A08EFE /* User.m in Sources */,
 				044312C21D77989600A08EFE /* ViewController.m in Sources */,
 				044312BF1D77989600A08EFE /* AppDelegate.m in Sources */,
 				044312BC1D77989600A08EFE /* main.m in Sources */,
